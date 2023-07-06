@@ -1,0 +1,117 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+:root {
+    --bg-blue-1: rgb(28,117,172);
+    --bg-blue-2: #F6F9FF;
+    --bg-blue-3: #6583b9;
+    --margin-top: 100px;
+}
+
+h1{
+    font-weight: bolder;
+}
+
+h3 {
+    font-size: 25px;
+}
+.custom {
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(97, 97, 97, 0.3), rgba(255, 255, 255, 0.9)),
+        url(../Imagens/pexels-brett-sayles-7963572.jpg);
+    background-position: 10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+button:focus {
+    box-shadow: 0;
+}
+
+.logo-text {
+    font-size: 1.8rem;
+    color: var(--bg-blue-1);
+    font-weight: 800;
+}
+
+.logo-icon {
+    color: var(--bg-blue-1);
+}
+
+.my-mt {
+    margin-top: var(--margin-top);
+}
+
+.nav-item a {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.my-title {
+    color: var(--bg-blue-1);
+    font-weight: 700;
+
+}
+
+.bg-blue-2 {
+    background-color: var(--bg-blue-2);
+}
+
+.sobre {
+    min-height: 50vh;
+}
+
+
+.icon {
+    font-size: 60px;
+    color: var(--bg-blue-1);
+    margin: 24px 0;
+    transition: .5s;
+}
+
+.card {
+    transition: .5s;
+}
+
+.card:hover {
+    background-color: var(--bg-blue-2);
+}
+
+.card:hover .icon {
+    transform: scale(1.5);
+}
+
+.icon-social,
+.icon-contato {
+    font-size: 2rem;
+    color: var(--bg-blue-1);
+    transition: .5s;
+}
+
+.icon-social:hover {
+    color: var(--bg-blue-3);
+}
+textarea {
+    resize: none;
+    height: 130px;
+}
+
+.text-left {
+    text-align: left !important;
+}
+
+
+@media(max-width:959px) {
+    #sobre{
+        text-align: center;
+    }
+}
+    
+
+
